@@ -1,4 +1,4 @@
-#### **Kriptografija i mrežna sigurnost** <!-- omit in toc -->
+# **Kriptografija i mrežna sigurnost** <!-- omit in toc -->
 
 - [Lab1: Setting up the stage](#lab1-setting-up-the-stage)
   - [Uvod](#uvod)
