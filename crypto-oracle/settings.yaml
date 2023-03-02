@@ -1,0 +1,38 @@
+app:
+  title: Crypto@FESB
+  username: john_doe
+  jwt_algorithm: HS256
+  max_plaintext_size: 64
+  jwt_secret_key: H8e53HUNKlIF92DXqX/GPooOdz8+Ip8DXyHzy+dXRrQ=
+  key_seed: ETKtMAMbk9x/m4kDDR+826JoI0nFCF4S5/1eGpYNRRU=
+lab:
+  arp:
+    scope: arp
+    password: overndusti
+    cookie: thelndoffiabysyo
+    challenge: Project managers never ask Chuck Norris for estimations... ever.
+  ecb:
+    scope: ecb
+    password: heeblellei
+    cookie: sequnfemburekeou
+    challenge: Chuck Norris shot the sheriff, but he round house kicked the deputy.
+  cbc:
+    scope: cbc
+    iv_increment: 4
+    password: searobemic
+    cookie: sushi
+    challenge: Chuck Norris can instantiate an abstract class.
+  ctr:
+    scope: ctr
+    difficulty: 12
+    password: lureverncp
+    challenge:
+      Chuck Norris won super bowls VII and VIII singlehandedly before unexpectedly
+      retiring to pursue a career in ass-kicking.
+  asymmetric:
+    scope: asymmetric
+    key_size: 2048
+    password: tyceedilar
+    challenge:
+      Nothing can escape the gravity of a black hole, except for Chuck Norris.
+      Chuck Norris eats black holes. They taste like chicken.
