@@ -1,15 +1,15 @@
-# **Kriptografija i mrežna sigurnost: Lab 1** <!-- omit in toc -->
+#### **Kriptografija i mrežna sigurnost** <!-- omit in toc -->
 
-- [Setting up the stage](#setting-up-the-stage)
+- [Lab1: Setting up the stage](#lab1-setting-up-the-stage)
   - [Uvod](#uvod)
   - [Pristup serveru](#pristup-serveru)
   - [Pohrana rješenja](#pohrana-rješenja)
   - [Postavljanje razvojnog okruženja](#postavljanje-razvojnog-okruženja)
     - [Visual Studio Code Development Container](#visual-studio-code-development-container)
     - [Python virtualno okruženje](#python-virtualno-okruženje)
-- [Važni linkovi](#važni-linkovi)
+  - [Važni linkovi](#važni-linkovi)
 
-## Setting up the stage
+# Lab1: Setting up the stage
 
 <p align="center">
 <img src="../img/openapi.png" alt="Crypto Oracle OpenAPI documentation" width="500px" height="auto"/>
@@ -17,15 +17,15 @@
 <em>Crypto Oracle OpenAPI documentation</em>
 </p>
 
-### Uvod
+## Uvod
 
 Student rješava izazove u interackciji sa REST API serverom kojeg kolokvijalno nazivamo **_crypto oracle_**. _Crypto oracle_ generira izazove u obliku šifriranog/enkriptiranog teksta ([Chuck Norris facts](https://api.chucknorris.io/)) kojeg student treba dekriptirati. Dekripcijski ključ student treba otkriti u interakciji sa _crypto oracle_ serverom.
 
-> Uspješnom dekripcijom izazova student, uz novu činjenicu o Chuck Norrisu, otkriva i **password** potreban za pristup sljedećoj vježbi.
+> Uspješnom dekripcijom izazova student, uz novu činjenicu o Chuck Norrisu, otkriva i **_password_** potreban za pristup sljedećoj vježbi.
 
 Server je pisan u Pythonu web okviru [FastAPI](https://fastapi.tiangolo.com/). Izvorni kod servera dostupan je u ovom repozitoriju [crypto-oracle](/crypto-oracle/). Kriptografske funkcije dolaze iz Python biblioteke (*package*) [cryptography](https://cryptography.io).
 
-### Pristup serveru
+## Pristup serveru
 
 Za svakog studenta pokreće se personalizirana instanca _crypto oracle_ servera u vidu [Docker](https://www.docker.com/) *container*-a. Za pristup osobnom serveru student treba koristiti računalo koje ima pristup lokalnoj mreži u laboratoriju.
 
@@ -41,7 +41,7 @@ Osobnom serveru pristupate na osnovu odgovarajuće IP adrese. S obzirom da se ad
 </p>
 <br/>
 
-### Pohrana rješenja
+## Pohrana rješenja
 
 Student pohranjuje rješenja u odgovarajući repozitorij na **loklanoj instanci GitLab servera** dostupnoj na adresi **http://gitlab.local**. Rješenje uključuje:
 
@@ -67,11 +67,11 @@ Student se prijavljuje na **lokalni** [GitLab server](http://gitlab.local) s kor
 </p>
 <br/>
 
-### Postavljanje razvojnog okruženja
+## Postavljanje razvojnog okruženja
 
 Preporučamo korištenje Python programskog jezika za rješavanje izazova iako je moguće koristiti proizvoljan programski jezik. _Crypto oracle_ server je pisan u Pythonu pa možete iskoristiti izvorni kod servera kao referencu za rješavanje izazova.
 
-#### Visual Studio Code Development Container
+### Visual Studio Code Development Container
 
 Ovo je preferiran način postavljanja razvojnog okruženja koji osigurava identično razvojno okruženje na svim računalima. Potrebno je instalirati ekstenziju [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) te osigurati (na Windows računalima) da je pokrenut [Docker Desktop](https://www.docker.com/products/docker-desktop).
 
@@ -79,7 +79,7 @@ Nakon toga, u _Visual Studio Code_-u jednostavno otvorite direktorij u kojem se 
 
 > Inicijalno pokretanje razvojnog okruženja može potrajati obzirom da _Visual Studio Code_ preuzima i konfigurira sve potrebne komponente za izgradnju Docker _image_-a. Naknadno pokretanje razvojnog okruženja, za dani direktorij, znatno je brže.
 
-#### Python virtualno okruženje
+### Python virtualno okruženje
 
 Ako se pokaže da _Visual Studio Code_ razvojno okruženje nije moguće koristiti (greške, izuzetno sporo pokretanje), možete koristiti **Python virtualno okruženje**. Efektno, ovo znači da svaki Python projekt može imati instalirane vlastite biblioteke (*package*), neovisno o bibliotekama drugih projekata. Tako npr., korištenjem virtualnih okruženja različiti Python projekti na istom sustavu mogu ovisiti o različitim verzijama iste biblioteke a da ne utječu jedni na druge. Broj virtualnih okruženja koje možete kreirati je praktično neograničen.
 
