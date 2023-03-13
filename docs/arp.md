@@ -83,9 +83,9 @@ Za izvođenje ovog napada, za student će koristiti specijalizirano napadačko r
 6. Popunite sljedeću tablicu podacima iz zaglavlja mrežnih paketa koje žrtva (_crypto_oracle_) šalje `arp_client` računalu:
 
     |               | `MAC`<sub>src</sub> | `MAC`<sub>dst</sub> | `IP`<sub>src</sub> | `IP`<sub>dst</sub> |
-    | :------------- | :----------------- | :----------------- | :---------------- | :---------------- |
-    | before attack |                   |                   |                  |                  |
-    | after attack  |                   |                   |                  |                  |
+    | :------------ | :------------------ | :------------------ | :----------------- | :----------------- |
+    | before attack |                     |                     |                    |                    |
+    | after attack  |                     |                     |                    |                    |
 
 7. Traženi autentikacijski token možete doznati primjenom odgovarajućeg `tcpdump` filtera:
 
