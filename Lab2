@@ -1,0 +1,43 @@
+# Lab Title: [Lab2]
+
+## Challenge Answers
+
+- **Challenge 1:** [Insert answer here, i.e., a Chuck Norris fact]
+- **Challenge 2:** [Insert answer here, i.e., a `password` to unlock the next lab]
+
+## Other Relevant Information
+
+[Insert here, if applicable]
+  
+## Lab Prep Questions and Answers
+
+[Insert below, if applicable]
+
+## Pripremna pitanja
+
+1. What is the _Address Resolution Protocol (ARP)_, and what is its role in a network?
+    - Address Resolution Protocol is a communication protocol used to find MAC address of a device from its IP address.
+  
+2. What is a _Man-in-the-Middle (MitM)_ attack, and how does ARP spoofing enable it?
+   - Man in the Middle attack is a cyber attack where the perpetrator positions himself in a conversation between a user and an application, either to eavesdrop or to impersonate one of the parties with the goal to steal personal infromation. The attacker advertises that correct MAC addresses are the attacker's and user communicates with the attacker.
+
+3. How does an attacker use ARP spoofing to intercept network traffic?
+   -  An attacker sends fake ARP packets that link an attacker's MAC address with an IP of a computer already on the LAN.
+  
+4. How is the _cookie_ used to derive the encryption/decryption key?
+   - It translates token from server into the encryption/decription key.
+
+5. What REST API request do you need to send to the _crypto oracle_ the secret cookie?
+   - GET /arp/cookie
+  
+6. How do you obtain the authentication token?
+   - From crypto oracle server, authenticating with our username and password.
+  
+7. How do you use the authentication token to obtain the cookie?
+   - By sending a REST API request to crypto oracle server.
+
+8. What encryption mode is used to encrypt the challenge in this lab?
+   - ssh
+
+9. What tool can you use to capture network traffic on a local network interface?
+    - tcpdump
