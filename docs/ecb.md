@@ -11,7 +11,6 @@
     - [Iteriranje kroz string](#iteriranje-kroz-string)
     - [Dohvaćanje tokena (POST /ecb/token)](#dohvaćanje-tokena-post-ecbtoken)
     - [Slanje HTTP zahtjeva autoriziranog tokenom](#slanje-http-zahtjeva-autoriziranog-tokenom)
-  - [Pripremna pitanja](#pripremna-pitanja)
 
 # Lab 3: Deterministic encryption (ECB mode)
 
@@ -155,20 +154,3 @@ response = requests.post(
 # response.raise_for_status()
 print(response.json().get("ciphertext"))
 ```
-
-## Pripremna pitanja
-
-1. What is ECB mode and how does it work?
-    - [Insert your answer here]
-  
-2. Why is ECB mode considered a deterministic encryption technique?
-   - [Insert your answer here]
-
-3. How does _crypto oracle_ server encrypt your message?
-   - [Insert your answer here]
-
-4. What is the length of the secret cookie?
-   - [Insert your answer here]
-
-5. What is the meaning of the _chosen-plaintext_ attack? Do you consider it realistic?
-   - [Insert your answer here]
