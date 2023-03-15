@@ -37,7 +37,7 @@
    - By sending a REST API request to crypto oracle server.
 
 8. What encryption mode is used to encrypt the challenge in this lab?
-   - ssh
+   - cbc
 
 9. What tool can you use to capture network traffic on a local network interface?
     - tcpdump
